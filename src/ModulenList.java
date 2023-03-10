@@ -48,7 +48,7 @@ public class ModulenList extends JFrame {
         /**Home Button**/
         homeBtn = new JButton("");
         homeBtn.addActionListener(this::homeBtnActionPerformed);
-        homeBtn.setIcon(new ImageIcon("/Users/nabil/eclipse-workspace/student_management/216242_home_icon_copy.png"));
+        homeBtn.setIcon(new ImageIcon("/Users/nabil/eclipse-workspace/student_management/icon/216242_home_icon_copy.png"));
         homeBtn.setBackground(Color.GRAY);
         homeBtn.setOpaque(true);
         homeBtn.setBounds(0, 0, 48, 36);

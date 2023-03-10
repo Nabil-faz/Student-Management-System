@@ -188,7 +188,7 @@ public class studentsPage extends JFrame implements ActionListener, MouseListene
         exitBtn.setBorder(new EmptyBorder(0, 0, 0, 0));
         exitBtn.setBackground(Color.GRAY);
         exitBtn.setOpaque(true);
-        exitBtn.setIcon(new ImageIcon("/Users/nabil/eclipse-workspace/student_management/216242_home_icon_copy.png"));
+        exitBtn.setIcon(new ImageIcon("/Users/nabil/eclipse-workspace/student_management/icon/216242_home_icon_copy.png"));
         contentPane.add(exitBtn); // from the first dis
 
         /**Rest JButton**/
