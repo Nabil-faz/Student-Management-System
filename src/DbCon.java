@@ -10,8 +10,8 @@ public class DbCon {
     public static void main(String [] args){
 
 
-        String url = "jdbc:mysql://localhost:3306/student_manager";
-        String username = "root";
+        String url = "jdbc:mysql://localhost:0000/student_manager";
+        String username = "";
         String password = "";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

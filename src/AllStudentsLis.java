@@ -10,8 +10,8 @@ import java.util.Vector;
 public class AllStudentsLis extends JFrame implements ActionListener {
 
     /**SQL's values**/
-    private String url = "jdbc:mysql://localhost:3306/student_manager";
-    private String username = "root";
+    private String url = "jdbc:mysql://localhost:0000/student_manager";
+    private String username = "";
     private   String password = "";
 
     Connection sqlCon = null;

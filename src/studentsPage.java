@@ -16,8 +16,8 @@ import java.util.logging.Level;
 public class studentsPage extends JFrame implements ActionListener, MouseListener {
 
     /**SQL's values**/
-    private String url = "jdbc:mysql://localhost:3306/student_manager";
-    private String username = "root";
+    private String url = "jdbc:mysql://localhost:0000/student_manager";
+    private String username = "";
     private   String password = "";
 
     Connection sqlCon = null;
@@ -188,7 +188,7 @@ public class studentsPage extends JFrame implements ActionListener, MouseListene
         exitBtn.setBorder(new EmptyBorder(0, 0, 0, 0));
         exitBtn.setBackground(Color.GRAY);
         exitBtn.setOpaque(true);
-        exitBtn.setIcon(new ImageIcon("/Users/nabil/eclipse-workspace/student_management/icon/216242_home_icon_copy.png"));
+        exitBtn.setIcon(new ImageIcon("/student_management/icon/216242_home_icon_copy.png")); //Path
         contentPane.add(exitBtn); // from the first dis
 
         /**Rest JButton**/

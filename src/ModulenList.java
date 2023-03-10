@@ -10,8 +10,8 @@ import java.util.Vector;
 public class ModulenList extends JFrame {
 
     /**SQL's values**/
-    private String url = "jdbc:mysql://localhost:3306/student_manager";
-    private String username = "root";
+    private String url = "jdbc:mysql://localhost:0000/student_manager";
+    private String username = "";
     private   String password = "";
 
     Connection sqlCon = null;
@@ -48,7 +48,7 @@ public class ModulenList extends JFrame {
         /**Home Button**/
         homeBtn = new JButton("");
         homeBtn.addActionListener(this::homeBtnActionPerformed);
-        homeBtn.setIcon(new ImageIcon("/Users/nabil/eclipse-workspace/student_management/icon/216242_home_icon_copy.png"));
+        homeBtn.setIcon(new ImageIcon("/student_management/icon/216242_home_icon_copy.png")); // icon Path
         homeBtn.setBackground(Color.GRAY);
         homeBtn.setOpaque(true);
         homeBtn.setBounds(0, 0, 48, 36);
